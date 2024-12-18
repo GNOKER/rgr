@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сортировка массивов</title>
+</head>
+<body>
+    <h1>Сортировка массивов</h1>
+    <select id="sort-method">
+        <option value="bubbleSort">Пузырьковая сортировка</option>
+        <option value="combSort">Комбинированная сортировка</option>
+        <option value="quickSort">Быстрая сортировка</option>
+        <option value="heapSort">Сортировка кучей</option>
+        <option value="shakerSort">Шейкерная сортировка</option>
+    </select>
+    <button id="start-button">Начать сортировку</button>
+    <div style="overflow-x: auto; width: 100%; border: 1px solid #000;">
+        <div id="array-container"></div>
+    </div>
+    
+
+    <script src="dist/script.js"></script>
+</body>
+</html>
